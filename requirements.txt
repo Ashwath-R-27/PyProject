@@ -2,4 +2,5 @@ Flask
 request
 render_template
 jsonify
-csv
+
+csv==6.0.0
