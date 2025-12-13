@@ -1,0 +1,234 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="{{ url_for('static',filename='menupg.css') }}">
+        <title>Menu</title>
+    </head>
+    <body>
+        <div class="header"><h2>FORK AND FLAME</h2></div>
+        <div class="menu_body">
+            <h2>MENU</h2>
+            <a href="/home/menu/additem">Add Item</a>
+            <div class="menu_tb">
+                <table>
+                    <thead>
+                        <tr><th colspan="6">SOUP</th></tr>
+                        <tr>
+                            <th style="width: 10%;">DISH CODE</th>
+                            <th style="width: 19%;">DISH NAME</th>
+                            <th>DISH IMAGE</th>
+                            <th style="width: 22%;">CATEGORY</th>
+                            <th style="width: 17%;">PRICE</th>
+                        </tr>
+                        <tr>
+                            <th style="height: 25px;"></th>
+                            <th style="height: 25px;"></th>
+                            <th style="height: 25px;"></th>
+                            <th style="height: 25px;"><select name="filterct">
+                                <option value="All">All</option>
+                                <option value="Veg">Veg</option>
+                                <option value="Non Veg">Non Veg</option>
+                            </select></th>
+                            <th style="height: 25px;"></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for record in soup %}
+                        <tr>
+                            <td>{{ record[0] }}</td>
+                            <td>{{ record[1] }}</td>
+                            <td><img src="/static/dishimages/{{ record[0] }}.jpg"></td>
+                            <td>{{ record[2] }}</td>
+                            <td>₹{{ record[3] }}.00</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                    </table>
+                <table>
+                    <thead>
+                        <tr><th colspan="6">STARTERS</th></tr>
+                        <tr>
+                            <th style="width: 10%;">DISH CODE</th>
+                            <th style="width: 19%;">DISH NAME</th>
+                            <th>DISH IMAGE</th>
+                            <th style="width: 22%;">CATEGORY</th>
+                            <th style="width: 17%;">PRICE</th>
+                        </tr>
+                        <tr>
+                            <th style="height: 25px;"></th>
+                            <th style="height: 25px;"></th>
+                            <th style="height: 25px;"></th>
+                            <th style="height: 25px;"><select name="filterct">
+                                <option value="All">All</option>
+                                <option value="Veg">Veg</option>
+                                <option value="Non Veg">Non Veg</option>
+                            </select></th>
+                            <th style="height: 25px;"></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for record in starters %}
+                        <tr>
+                            <td>{{ record[0] }}</td>
+                            <td>{{ record[1] }}</td>
+                            <td><img src="/static/dishimages/{{ record[0] }}.jpg"></td>
+                            <td>{{ record[2] }}</td>
+                            <td>₹{{ record[3] }}.00</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+                <table>
+                    <thead>
+                        <tr><th colspan="6">BIRYANI</th></tr>
+                        <tr>
+                            <th style="width: 10%;">DISH CODE</th>
+                            <th style="width: 19%;">DISH NAME</th>
+                            <th>DISH IMAGE</th>
+                            <th style="width: 22%;">CATEGORY</th>
+                            <th style="width: 17%;">PRICE</th>
+                        </tr>
+                        <tr>
+                            <th style="height: 25px;"></th>
+                            <th style="height: 25px;"></th>
+                            <th style="height: 25px;"></th>
+                            <th style="height: 25px;"><select name="filterct">
+                                <option value="All">All</option>
+                                <option value="Veg">Veg</option>
+                                <option value="Non Veg">Non Veg</option>
+                            </select></th>
+                            <th style="height: 25px;"></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for record in biryani %}
+                        <tr>
+                            <td>{{ record[0] }}</td>
+                            <td>{{ record[1] }}</td>
+                            <td><img src="/static/dishimages/{{ record[0] }}.jpg"></td>
+                            <td>{{ record[2] }}</td>
+                            <td>₹{{ record[3] }}.00</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+                <table>
+                    <thead>
+                        <tr><th colspan="6">GRAVY</th></tr>
+                        <tr>
+                            <th style="width: 10%;">DISH CODE</th>
+                            <th style="width: 19%;">DISH NAME</th>
+                            <th>DISH IMAGE</th>
+                            <th style="width: 22%;">CATEGORY</th>
+                            <th style="width: 17%;">PRICE</th>
+                        </tr>
+                        <tr>
+                            <th style="height: 25px;"></th>
+                            <th style="height: 25px;"></th>
+                            <th style="height: 25px;"></th>
+                            <th style="height: 25px;"><select name="filterct">
+                                <option value="All">All</option>
+                                <option value="Veg">Veg</option>
+                                <option value="Non Veg">Non Veg</option>
+                            </select></th>
+                            <th style="height: 25px;"></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for record in gravy %}
+                        <tr>
+                            <td>{{ record[0] }}</td>
+                            <td>{{ record[1] }}</td>
+                            <td><img src="/static/dishimages/{{ record[0] }}.jpg"></td>
+                            <td>{{ record[2] }}</td>
+                            <td>₹{{ record[3] }}.00</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+                <table>
+                    <thead>
+                        <tr><th colspan="6">RICE/NOODLES</th></tr>
+                        <tr>
+                            <th style="width: 10%;">DISH CODE</th>
+                            <th style="width: 19%;">DISH NAME</th>
+                            <th>DISH IMAGE</th>
+                            <th style="width: 22%;">CATEGORY</th>
+                            <th style="width: 17%;">PRICE</th>
+                        </tr>
+                        <tr>
+                            <th style="height: 25px;"></th>
+                            <th style="height: 25px;"></th>
+                            <th style="height: 25px;"></th>
+                            <th style="height: 25px;"><select name="filterct">
+                                <option value="All">All</option>
+                                <option value="Veg">Veg</option>
+                                <option value="Non Veg">Non Veg</option>
+                            </select></th>
+                            <th style="height: 25px;"></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for record in rice_noodles %}
+                        <tr>
+                            <td>{{ record[0] }}</td>
+                            <td>{{ record[1] }}</td>
+                            <td><img src="/static/dishimages/{{ record[0] }}.jpg"></td>
+                            <td>{{ record[2] }}</td>
+                            <td>₹{{ record[3] }}.00</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+                <table>
+                    <thead>
+                        <tr><th colspan="6">DRINKS</th></tr>
+                        <tr>
+                            <th style="width: 10%;">DISH CODE</th>
+                            <th style="width: 19%;">DISH NAME</th>
+                            <th>DISH IMAGE</th>
+                            <th style="width: 22%;">CATEGORY</th>
+                            <th style="width: 17%;">PRICE</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for record in drinks %}
+                        <tr>
+                            <td>{{ record[0] }}</td>
+                            <td>{{ record[1] }}</td>
+                            <td><img src="/static/dishimages/{{ record[0] }}.jpg"></td>
+                            <td>{{ record[2] }}</td>
+                            <td>₹{{ record[3] }}.00</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                    </table>
+                    <table>
+                    <thead>
+                        <tr><th colspan="6">DESSERTS</th></tr>
+                        <tr>
+                            <th style="width: 10%;">DISH CODE</th>
+                            <th style="width: 19%;">DISH NAME</th>
+                            <th>DISH IMAGE</th>
+                            <th style="width: 22%;">CATEGORY</th>
+                            <th style="width: 17%;">PRICE</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for record in desserts %}
+                        <tr>
+                            <td>{{ record[0] }}</td>
+                            <td>{{ record[1] }}</td>
+                            <td><img src="/static/dishimages/{{ record[0] }}.jpg"></td>
+                            <td>{{ record[2] }}</td>
+                            <td>₹{{ record[3] }}.00</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>

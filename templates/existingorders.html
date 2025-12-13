@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static',filename='existorders.css') }}">
+    <title>Existing Orders</title>
+</head>
+<body>
+    <div class="header"><h2 style="margin-left: 25px;">FORK AND FLAME</h2></div>
+    <div class="content">
+        <h2>Existing Orders</h2>
+        <div class="orders">
+            {% for table in tables %}
+            <a href="/dashboard/orders/existingorders/Tableno={{ table }}">
+            <div class="tble_num">
+                <h3>Table {{ table }}</h3>
+            </div>
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+</body>
+</html>

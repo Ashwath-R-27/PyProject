@@ -1,0 +1,9 @@
+tableno,itemcode,item,price,qty,totalprice
+9,100,Cheese Balls,96.0,1,96.0
+9,101,Spring Roll,201.0,1,201.0
+9,102,Prawn Tempura,340.0,1,340.0
+9,103,Aloo Tikki,398.0,1,398.0
+9,104,Chicken Wings,85.0,5,425.0
+5,203,Hyderabadi Biryani,87.0,8,696.0
+5,207,Mughlai Biryani,106.0,1,106.0
+5,208,Kolkata Biryani,372.0,1,372.0

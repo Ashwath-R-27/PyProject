@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static',filename='menupg.css') }}">
+    <title>Add Item</title>
+</head>
+<body>
+    <div class="header"><h2>FORK AND FLAME</h2></div>
+    <div class="additem">
+        <h3>NEW ITEM</h3>
+        <hr>
+        <form action="/home/menu/additem/submited" method="post">
+            <div class="input_box">
+                <label for="course">Select the course :</label>
+                <select name="course" id="course" required>
+                    <option value="" selected disabled>Select</option>
+                    <option value="Soup">Soup</option>
+                    <option value="Starters">Starters</option>
+                    <option value="Biriyani">Biriyani</option>
+                    <option value="Gravy">Gravy</option>
+                    <option value="Rice/Noodles">Rice/Noodles</option>
+                    <option value="Drinks">Drinks</option>
+                    <option value="Desserts">Desserts</option>
+                </select>
+            </div>
+            <div class="input_box">
+                <label for="dishname">Enter Dish Name :</label>
+                <input type="text" name="dishname" required>
+            </div>
+            <div class="input_box">
+                <label for="category">Select the Category :</label>
+                <select name="category" id="category" required>
+                    <option value="" selected disabled>Select</option>
+                    <option value="Veg">Veg</option>
+                    <option value="Non Veg">Non Veg</option>
+                </select>
+            </div>
+            <div class="input_box">
+                <label for="upload_file">Upload image of the dish (It should be strictly in white background, dimensions: 1200 x 1200 and file must be in jpg format) :</label>
+                <input type="file" accept="image/png" style="border: none;" required>
+            </div>
+            <div class="input_box">
+                <label for="Price">Price (INR ₹) :</label>
+                <input type="number" name="price" min="0" required>
+            </div>
+            {% if result is defined %}
+            <div style="color: green;"><h2>{{ result }}</h2></div>
+            {% endif %}
+            <div class="btn" style="text-align: right;"><button type="submit">Add</button></div>
+        </form>
+    </div>
+</body>
+</html>

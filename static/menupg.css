@@ -1,0 +1,208 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    padding: 3px;
+    background: rgb(121, 91, 255);
+    color: rgb(255, 255, 255);
+}
+
+.header h2 {
+    margin-left: 25px;
+}
+
+.menu_body {
+    padding: 25px;
+}
+
+.menu_body h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.menu_body a {
+    float: right;
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgb(68, 230, 68);
+    color: white;
+    margin: 10px 0;
+    font-weight: bold;
+    border-radius: 10px;
+    text-shadow: 1px 1px black;
+}
+
+.menu_body a:hover {
+    background-color: rgb(11, 121, 11);
+}
+
+.menu_tb table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin: 50px 0;
+    border: 1.5px solid black;
+    border-collapse: collapse;
+}
+
+.menu_tb table th {
+    border: 1.5px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    font-weight: bold;
+    height: 50px;
+    font-size: 18px;
+    text-shadow: 1px 1px black;
+}
+
+.menu_tb table th {
+    background-color: rgb(121, 91, 255);
+    color: white;
+}
+
+.ftbtn button {
+    width: 6%;
+    height: 5%;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(112, 112, 255);
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px rgb(59, 59, 59);
+    cursor: pointer;
+}
+
+.menu_tb table td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    font-weight: bold;
+    height: 100px;
+}
+
+.menu_tb table td img {
+    width: 200px;
+    height: 175px;
+}
+
+.menu_tb table th select {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(121, 91, 255);
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.additem {
+    background-color: rgb(255, 231, 248);
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 55%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+}
+
+.additem h3 {
+    text-align: center;
+}
+
+.additem hr {
+    border: 2px solid rgb(167, 167, 167);
+    border-radius: 20px;
+}
+
+.additem form {
+    margin: 0 25px;
+}
+
+.input_box {
+    margin: 15px 0;
+}
+
+.input_box label {
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.input_box select {
+    padding: 5px;
+    font-size: 17px;
+    border-radius: 10px;
+    width: 20%;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.input_box input {
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.btn {
+    text-align: right;
+}
+
+.btn button {
+    background-color: rgb(51, 238, 51);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn button:hover {
+    background-color: rgb(5, 117, 1);
+}
+
+@media screen and (max-width: 500px) {
+    .input_box select {
+        width: 50%;
+    }
+}
+
+    @media screen and (max-width: 600px) {
+        .menu_tb table {
+            display: block; /* Changes table to act like a block element */
+            overflow-x: auto; /* Enables horizontal scrolling if content overflows */
+            white-space: nowrap; /* Prevents text from wrapping within cells */
+        }
+        .menu_tb table th,
+        .menu_tb table td {
+            /* Adjust padding, font size, etc. for smaller screens */
+            padding: 8px;
+            font-size: 0.9em;
+        }
+        /* Example: Hide specific columns on mobile */
+        .menu_tb .hide-on-mobile {
+            display: none;
+        }
+    }
+
+        @media screen and (max-width: 600px) {
+        .table {
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: center;
+        }
+        .table .tr {
+            display: flex;
+            flex-direction: column;
+        }
+        .table .td {
+            white-space: nowrap;
+        }
+    }

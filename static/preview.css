@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.header {
+    padding: 3px;
+    background: #568bff;
+    color: rgb(255, 255, 255);
+}
+
+.header h2 {
+    margin-left: 25px;
+}
+
+.content {
+    padding: 10px;
+    margin: 20px 0;
+}
+
+.content h2 {
+    text-align: center;
+}
+
+.cutm-dtls {
+    padding: 15px;
+    width: 50%;
+    background-color: rgb(231, 231, 231);
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.input-box {
+    margin: 10px 0;
+}
+
+.input-box label {
+    font-weight: bold;
+}
+
+.input-box input {
+    padding: 7px;
+    font-size: 14px;
+    height: 15px;
+    width: 30%;
+    margin-left: 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(43, 43, 43);
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+
+.order-tbl {
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.order-tbl table {
+    width: 80%;
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.order-tbl table th {
+    border: 2px solid black;
+    border-collapse: collapse;
+    height: 50px;
+    font-size: 18px;
+}
+
+.order-tbl table td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    height: 30px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.order-tbl table td input {
+    text-align: center;
+    width: 95%;
+    height: 95%;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+}
+
+.order-tbl table td input:focus {
+    outline: 0;
+}
+
+.submit-btn {
+    text-align: right;
+    margin: 20px 10%;
+}
+
+.submit-btn button {
+    padding: 10px;
+    background-color: rgb(8, 168, 8);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-btn button:hover {
+    transition: 0.2s;
+    background-color: rgb(12, 92, 12);
+}

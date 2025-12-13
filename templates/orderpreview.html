@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static',filename='preview.css') }}">
+    <title>Preview</title>
+</head>
+<body>
+    <div class="header"><h2>FORK AND FLAME</h2></div>
+    <div class="content">
+        <h2>Preview</h2>
+        <form action="/submitted" method="post">
+            <div class="cutm-dtls">
+                <div class="input-box">
+                <label>Table Number * :</label>
+                <input type="number" name="tbl_num" required min="1" max="19"><br>
+                </div>
+                <div class="input-box">
+                <label>Customer Mobile Number :</label>
+                <input type="text" name="customer_mobile_no" maxlength="10">
+                </div>
+            </div>
+            <div class="order-tbl">
+                <table class="serial-table">
+                    <thead>
+                        <tr>
+                            <th>S.No</th>
+                            <th style="width: 50%;">Item</th>
+                            <th style="width: 25%;">Price</th>
+                            <th>Qty</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for item in items %}
+                        <tr>
+                            <td>{{ item[0] }}</td>
+                            <td>{{ item[2] }}</td>
+                            <td>₹ {{ item[3] }}.00</td>
+                            <td><input type="number" name="qty_{{ item[1] }}" min="1" value="1" max="25" required></td>
+
+                            <input type="hidden" name="code_{{ item[1] }}" value="{{ item[1] }}">
+                            <input type="hidden" name="name_{{ item[1] }}" value="{{ item[2] }}">
+                            <input type="hidden" name="price_{{ item[1] }}" value="{{ item[3] }}">
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+                <div class="submit-btn"><button>Place Order</button></div>
+            </div>
+        </form>
+        {% if status is defined %}
+        <div>{{ status }}</div>
+        {% endif %}
+    </div>
+</body>
+</html>

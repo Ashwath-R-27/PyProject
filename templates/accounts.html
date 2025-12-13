@@ -1,0 +1,41 @@
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='accounts.css') }}">
+    <title>Accounts</title>
+    </head>
+    <body>
+        <div class="header"><h2>FORK AND FLAME</h2></div>
+        <div class="content">
+            <h2>ACCOUNTS</h2>
+            <div class="acc_tb">
+                <table>
+                <thead>
+                    <tr>
+                        <th style="width: 9%;">DISH CODE</th>
+                        <th>DISH NAME</th>
+                        <th style="width: 9%;">QTY SOLD</th>
+                        <th>PRICE</th>
+                        <th style="width: 20%;">TOTAL AMOUNT</th>
+                        <!--<th>PROFIT</th>-->
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for record in records %}
+                    <tr>
+                        <td>{{ record[0] }}</td>
+                        <td>{{ record[1] }}</td>
+                        <td>{{ record[2] }}</td>
+                        <td>{{ record[3] }}</td>
+                        <td>{{ record[4] }}</td>
+                        <!--<td>{{ record[5] }}</td>-->
+                    </tr>
+                    {% endfor %}
+                </tbody>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>

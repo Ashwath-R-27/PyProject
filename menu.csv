@@ -1,0 +1,211 @@
+itemcode,dish name,veg/non veg,price,category
+100,Cheese Balls,Veg,96,Starters
+101,Spring Roll,Veg,201,Starters
+102,Prawn Tempura,Veg,340,Starters
+103,Aloo Tikki,Veg,398,Starters
+104,Chicken Wings,Non Veg,85,Starters
+105,Paneer Pakora,Veg,157,Starters
+106,Onion Rings,Veg,229,Starters
+107,Corn Cheese Ball,Veg,186,Starters
+108,Chicken Momos,Veg,354,Starters
+109,Veg Seekh Kebab,Veg,279,Starters
+110,Dahi Kebab,Veg,140,Starters
+111,Chicken 65,Non Veg,245,Starters
+112,Veg Momos,Veg,210,Starters
+113,Chicken Platter,Veg,171,Starters
+114,Egg Pakoda,Veg,104,Starters
+115,Mushroom Tikka,Veg,237,Starters
+116,Chilli Paneer,Veg,176,Starters
+117,Veg Cutlet,Veg,108,Starters
+118,Crispy Corn,Veg,151,Starters
+119,Veg Nuggets,Veg,218,Starters
+120,Chicken Seekh Kebab,Veg,127,Starters
+121,Veg Platter,Veg,166,Starters
+122,Hara Bhara Kebab,Veg,83,Starters
+123,Malai Tikka,Veg,135,Starters
+124,Egg Roll,Non Veg,123,Starters
+125,Chicken Lollipop,Non Veg,197,Starters
+126,Samosa,Veg,205,Starters
+127,Gobi Manchurian,Veg,215,Starters
+128,Stuffed Mushroom,Veg,125,Starters
+129,Fish Fingers,Non Veg,367,Starters
+200,Sindhi Biryani,Veg,377,Biryani
+201,Goan Biryani,Veg,96,Biryani
+202,Ambur Biryani,Veg,340,Biryani
+203,Hyderabadi Biryani,Veg,87,Biryani
+204,Lucknowi Biryani,Veg,360,Biryani
+205,Mutton Biryani,Non Veg,360,Biryani
+206,Donne Biryani,Veg,346,Biryani
+207,Mughlai Biryani,Veg,106,Biryani
+208,Kolkata Biryani,Veg,372,Biryani
+209,Awadhi Biryani,Veg,125,Biryani
+210,Jackfruit Biryani,Veg,350,Biryani
+211,Fish Biryani,Non Veg,228,Biryani
+212,Egg Biryani,Veg,284,Biryani
+213,Malabar Biryani,Veg,98,Biryani
+214,Chicken Biryani,Non Veg,320,Biryani
+215,Paneer Biryani,Veg,301,Biryani
+216,Egg Fried Rice,Non Veg,87,Biryani
+217,Mutton Keema Biryani,Veg,204,Biryani
+218,Kashmiri Biryani,Veg,338,Biryani
+219,Thalassery Biryani,Veg,324,Biryani
+220,Chettinad Biryani,Veg,284,Biryani
+221,Dum Biryani,Veg,181,Biryani
+222,Mushroom Biryani,Veg,359,Biryani
+223,Prawn Biryani,Veg,235,Biryani
+224,Veg Dum Biryani,Veg,201,Biryani
+225,Veg Biryani,Veg,86,Biryani
+226,Schezwan Biryani,Veg,367,Biryani
+227,Paneer Tikka Biryani,Veg,209,Biryani
+228,Keema Biryani,Veg,288,Biryani
+229,Bombay Biryani,Veg,352,Biryani
+300,Chicken Stew,Non Veg,206,Gravy
+301,Mushroom Korma,Veg,198,Gravy
+302,Butter Chicken,Non Veg,225,Gravy
+303,Chicken Curry,Non Veg,176,Gravy
+304,Kadai Chicken,Veg,309,Gravy
+305,Prawn Masala,Non Veg,344,Gravy
+306,Mutton Korma,Non Veg,277,Gravy
+307,Corn Curry,Veg,353,Gravy
+308,Rajma Chawal,Veg,159,Gravy
+309,Mutton Rogan Josh,Non Veg,352,Gravy
+310,Palak Paneer,Veg,81,Gravy
+311,Fish Masala,Veg,326,Gravy
+312,Malai Kofta,Veg,90,Gravy
+313,Egg Curry,Non Veg,232,Gravy
+314,Chana Masala,Veg,113,Gravy
+315,Paneer Tikka Masala,Veg,165,Gravy
+316,Egg Masala Gravy,Veg,352,Gravy
+317,Bhindi Gravy,Veg,232,Gravy
+318,Egg Keema Gravy,Veg,138,Gravy
+319,Chicken Masala,Veg,201,Gravy
+320,Paneer Butter Masala,Veg,352,Gravy
+321,Kaju Curry,Veg,302,Gravy
+322,Veg Kurma,Veg,108,Gravy
+323,Aloo Matar Gravy,Veg,192,Gravy
+324,Dal Fry,Veg,169,Gravy
+325,Mushroom Masala,Veg,130,Gravy
+326,Paneer Korma,Veg,302,Gravy
+327,Fish Curry,Non Veg,123,Gravy
+328,Mixed Veg Curry,Veg,228,Gravy
+329,Dal Makhani,Veg,136,Gravy
+400,Peas Pulao,Veg,273,Rice/Noodles
+401,Triple Schezwan Rice,Veg,379,Rice/Noodles
+402,Schezwan Rice,Veg,264,Rice/Noodles
+403,Prawn Fried Rice,Non Veg,181,Rice/Noodles
+404,Veg Momos,Veg,349,Rice/Noodles
+405,Fish Curry Rice,Non Veg,320,Rice/Noodles
+406,Chilli Garlic Noodles,Veg,80,Rice/Noodles
+407,Butter Fried Rice,Veg,203,Rice/Noodles
+408,Veg Fried Rice,Veg,271,Rice/Noodles
+409,Thai Noodles,Veg,278,Rice/Noodles
+410,Jeera Rice,Veg,155,Rice/Noodles
+411,Chicken Fried Rice,Veg,88,Rice/Noodles
+412,Mixed Noodles,Veg,276,Rice/Noodles
+413,Garlic Rice,Veg,201,Rice/Noodles
+414,Egg Hakka Noodles,Non Veg,314,Rice/Noodles
+415,Vegetable Pulao,Veg,187,Rice/Noodles
+416,Egg Noodles,Veg,307,Rice/Noodles
+417,Paneer Noodles,Veg,339,Rice/Noodles
+418,Corn Fried Rice,Veg,155,Rice/Noodles
+419,Cashew Rice,Veg,375,Rice/Noodles
+420,American Chopsuey,Veg,295,Rice/Noodles
+421,Mushroom Rice,Veg,183,Rice/Noodles
+422,Chicken Noodles,Veg,217,Rice/Noodles
+423,Chicken Manchurian,Non Veg,212,Rice/Noodles
+424,Paneer Fried Rice,Veg,309,Rice/Noodles
+425,Egg Fried Rice,Non Veg,244,Rice/Noodles
+426,Singapuri Noodles,Veg,244,Rice/Noodles
+427,Veg Schezwan Noodles,Veg,86,Rice/Noodles
+428,Paneer Pulao,Veg,146,Rice/Noodles
+429,Hakka Noodles,Veg,240,Rice/Noodles
+500,Veg Clear Soup,Veg,130,Soup
+501,Tomato Soup,Veg,217,Soup
+502,Korean Soup,Veg,158,Soup
+503,Manchow Soup,Veg,257,Soup
+504,Pumpkin Soup,Veg,149,Soup
+505,Cream of Mushroom,Veg,122,Soup
+506,Peas Soup,Veg,325,Soup
+507,Dal Shorba,Veg,251,Soup
+508,Mushroom Soup,Veg,110,Soup
+509,Corn & Spinach Soup,Veg,242,Soup
+510,Hot and Sour Soup,Veg,123,Soup
+511,Bean Soup,Veg,321,Soup
+512,Vegetable Soup,Veg,277,Soup
+513,Paneer Soup,Veg,114,Soup
+514,Noodle Soup,Veg,349,Soup
+515,Thai Soup,Veg,298,Soup
+516,Seafood Soup,Veg,194,Soup
+517,Mix Veg Soup,Veg,117,Soup
+518,Chicken Soup,Veg,215,Soup
+519,Wonton Soup,Veg,276,Soup
+520,Schezuan Soup,Veg,288,Soup
+521,Shrimp Soup,Veg,212,Soup
+522,Sweet Corn Soup,Veg,360,Soup
+523,Chicken Clear Soup,Veg,243,Soup
+524,Lentil Soup,Veg,226,Soup
+525,Broccoli Soup,Veg,119,Soup
+526,Cream of Tomato,Veg,118,Soup
+527,Egg Drop Soup,Veg,240,Soup
+528,Cabbage Soup,Veg,257,Soup
+529,Spinach Soup,Veg,177,Soup
+600,Flavoured Milk,Veg,394,Drinks
+601,Red Bull,Veg,121,Drinks
+602,Fanta,Veg,147,Drinks
+603,Coconut Water,Veg,179,Drinks
+604,Sprite,Veg,387,Drinks
+605,Mint Cooler,Veg,159,Drinks
+606,Blue Lagoon,Veg,311,Drinks
+607,Cold Coffee,Veg,234,Drinks
+608,Coffee,Veg,206,Drinks
+609,Tea,Veg,359,Drinks
+610,Virgin Mojito,Veg,93,Drinks
+611,Apple Juice,Veg,146,Drinks
+612,Chaas,Veg,348,Drinks
+613,Pepsi,Veg,330,Drinks
+614,Lassi,Veg,113,Drinks
+615,Soda,Veg,148,Drinks
+616,Energy Drink,Veg,235,Drinks
+617,Juice,Veg,214,Drinks
+618,Lemonade,Veg,252,Drinks
+619,Iced Tea,Veg,153,Drinks
+620,Ginger Ale,Veg,400,Drinks
+621,Limca,Veg,267,Drinks
+622,Soft Drink,Veg,165,Drinks
+623,Appy Fizz,Veg,120,Drinks
+624,Buttermilk,Veg,290,Drinks
+625,Orange Juice,Veg,115,Drinks
+626,Pineapple Juice,Veg,393,Drinks
+627,Mocktail,Veg,256,Drinks
+628,Fruit Punch,Veg,397,Drinks
+629,Mango Shake,Veg,361,Drinks
+700,Gulab Jamun,Veg,251,Desserts
+701,Kalakand,Veg,209,Desserts
+702,Fruit Custard,Veg,269,Desserts
+703,Caramel Custard,Veg,101,Desserts
+704,Sheer Khurma,Veg,174,Desserts
+705,Rasgulla,Veg,227,Desserts
+706,Milkshake,Veg,92,Desserts
+707,Kulfi,Veg,183,Desserts
+708,Malpua,Veg,217,Desserts
+709,Gajar Halwa,Veg,296,Desserts
+710,Cake,Veg,373,Desserts
+711,Moong Dal Halwa,Veg,377,Desserts
+712,Choco Lava Cake,Veg,362,Desserts
+713,Barfi,Veg,226,Desserts
+714,Falooda,Veg,243,Desserts
+715,Ice Cream,Veg,293,Desserts
+716,Pastry,Veg,135,Desserts
+717,Rabri,Veg,187,Desserts
+718,Kheer,Veg,120,Desserts
+719,Shrikhand,Veg,250,Desserts
+720,Fruit Salad,Veg,92,Desserts
+721,Peda,Veg,247,Desserts
+722,Chenna Poda,Veg,218,Desserts
+723,Phirni,Veg,255,Desserts
+724,Brownie,Veg,85,Desserts
+725,Basundi,Veg,163,Desserts
+726,Apple Pie,Veg,98,Desserts
+727,Sandesh,Veg,362,Desserts
+728,Jalebi,Veg,202,Desserts
+729,Tiramisu,Veg,180,Desserts

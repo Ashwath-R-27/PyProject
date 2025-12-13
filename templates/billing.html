@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="{{ url_for('static',filename='billpg.css') }}">
+        <title>Billing</title>
+    </head>
+    <script src="{{ url_for('static',filename='bill_pg.js') }}"></script>
+    <body>
+        <div class="header"><h1>🍽️ Restaurant Order Panel</h1></div>
+        <div class="search_box"><input type="text" placeholder="Search" id="searchdish" onkeyup="searchFunction()"></div>
+        <form action="/preview" method="post">
+        <div class="submit-btn"><button>Place Order</button></div>
+        {% if value is defined %}
+        <h2 style="text-align: center;">{{ value }}</h2>
+        {% endif %}
+        <div class="content">
+            {% for record in records %}
+            <div class="item">
+                <h4>{{ record[1] }}</h4>
+                {% if record[2]=='Veg' %}
+                <h5><img src="/static/vegsy.png" style="width: 15px;"> {{ record[2] }}</h5>
+                {% else %}
+                <h5><img src="/static/nonvegsy.png" style="width: 16px;"> {{ record[2] }}</h5>
+                {% endif %}
+                <h5>₹ {{ record[3] }}.00</h5>
+                <label class="add-btn">
+                    <input type="checkbox" name="dish" value="{{ record[0] }}">
+                    <span class="btn-txt">Add</span>
+                </label>
+            </div>
+            {% endfor %}
+        </div>
+        </form>
+    </body>
+</html>

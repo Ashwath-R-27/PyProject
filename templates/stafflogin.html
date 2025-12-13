@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="{{ url_for('static',filename='login.css') }}">
+        <title>Login</title>
+    </head>
+    <body>
+        <div class="header"><h2>FORK AND FLAME</h2></div>
+        <div class="content">
+        <div class="details">
+        <h2>STAFF LOGIN</h2><br>
+        <h3 style="margin: 0; color: black;background-color: rgba(249, 255, 255, 0.781);padding: 10px;">Are you admin ?: <a href="/adminlogin" style="color: blue;margin-left: 10px;">Login Here</a></h3>
+        <hr style="margin-bottom: 20px;border: 2px solid rgb(251, 249, 255);border-radius: 10px;">
+        <form action="/dashboard" method="post">
+            <label><b>Staff ID :</b></label><br>
+            <input type="text" name="un" required><br>
+            <label><b>Passcode :</b></label><br>
+            <input type="password" name="pwd" maxlength="6"><br>
+            {% if result is defined %}
+            <h4 style="margin: 0 15px;color: red;font-weight: bold;background: rgba(255, 232, 232, 0.842);padding: 0 7px;width: 88%;">Invalid {{ result }}</h4>
+            {% endif %}
+            <button type="submit">Login</button>
+        </form>
+        </div>
+    </div>
+    </body>
+</html>
